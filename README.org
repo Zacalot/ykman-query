@@ -1,0 +1,15 @@
+#+TITLE: Interface for Yubikey OTP Access in Emacs
+
+* Description
+An Emacs package for copying OATH codes from a YubiKey.
+* Dependencies
+The ~ykman~ program, which is included in the YubiKey Manager program by Yubico.
+* Usage
+1. M-x ~ykman-mode-query-code~
+2. Input YubiKey password
+3. Select account
+4. Tap Yubikey
+* Notes
+Only tested on Windows with a password protected YubiKey. This has been working for me personally but I can't guarantee complete robustness
+* Further Developments
+This package could be expanded by implementing a way to set up new OATH codes.
